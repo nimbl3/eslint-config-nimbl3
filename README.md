@@ -1,23 +1,23 @@
-# @nimbl3/eslint-config-nimbl3
+# @nimblehq/eslint-config-nimble
 
-> ESLint [shareable config](http://eslint.org/docs/developer-guide/shareable-configs.html) developed and maintained by [Nimbl3](https://www.nimbl3.com/)
+> ESLint [shareable config](http://eslint.org/docs/developer-guide/shareable-configs.html) developed and maintained by [nimble](https://nimblehq.co/)
 
 ## Installation
 
 ```
-$ npm install --save-dev @nimbl3/eslint-config-nimbl3
+$ npm install --save-dev @nimblehq/eslint-config-nimble
 ```
 
 ## Usage
 
 ### Standalone
 
-Add `@nimbl3/eslint-config-nimbl3` to the extends section of your `.eslintrc` configuration file.
+Add `@nimblehq/eslint-config-nimble` to the extends section of your `.eslintrc` configuration file.
 
 ```js
 {
   "extends": [
-      "@nimbl3/eslint-config-nimbl3"
+      "@nimblehq/eslint-config-nimble"
   ],
   "rules": {
     // Additional, per-project rules...
@@ -33,7 +33,7 @@ Similar process above but usually it requires to add the extra rules for the JS 
 ```js
 {
   "extends": [
-      "@nimbl3/eslint-config-nimbl3",
+      "@nimblehq/eslint-config-nimble",
       "plugin:react/recommended", 
       "plugin:vue/recommended"
   ],
@@ -47,19 +47,19 @@ Obviously, this would require to define the required dependencies in the project
 
 ## License
 
-This project is Copyright (c) 2014-2018 Nimbl3 Ltd. It is free software,
+This project is Copyright (c) 2014-2020 nimble Ltd. It is free software,
 and may be redistributed under the terms specified in the [LICENSE] file.
 
 [LICENSE]: /LICENSE
 
 ## About
 
-![Nimbl3](https://dtvm7z6brak4y.cloudfront.net/logo/logo-repo-readme.jpg)
+![Nimble](https://assets.nimblehq.co/logo/dark/logo-dark-text-160.png)
 
-This project is maintained and funded by Nimbl3 Ltd.
+This project is maintained and funded by Nimble.
 
 We love open source and do our part in sharing our work with the community!
 See [our other projects][community] or [hire our team][hire] to help build your product.
 
-[community]: https://nimbl3.github.io/
-[hire]: https://nimbl3.com/
+[community]: https://github.com/nimblehq
+[hire]: https://nimblehq.co/
